@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="DownloadRechnerGUI">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="8" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="717" height="465"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="708da" class="javax.swing.JTextField" binding="JtfData">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <vspacer id="f872e">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="e63ae" class="javax.swing.JButton" binding="JbtnDataTB">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="TB"/>
+          <toolTipText value="Sets Terabyte"/>
+        </properties>
+      </component>
+      <component id="12c1e" class="javax.swing.JButton" binding="JbtnDataGB">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="GB"/>
+          <toolTipText value="Sets Gigabyte"/>
+        </properties>
+      </component>
+      <component id="5319d" class="javax.swing.JButton" binding="JbtnDataMB">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="MB"/>
+          <toolTipText value="Sets Megabyte"/>
+        </properties>
+      </component>
+      <component id="bedcf" class="javax.swing.JButton" binding="JbtnDataKB">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="KB"/>
+          <toolTipText value="Sets Kilobyte "/>
+        </properties>
+      </component>
+      <component id="b9f9" class="javax.swing.JTextField" binding="JtfDownSpeed">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="100"/>
+          <toolTipText value="enter your Download speed"/>
+        </properties>
+      </component>
+      <component id="800ea" class="javax.swing.JTextField" binding="JtfUpSpeed">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="40"/>
+          <toolTipText value="enter your Upload speed"/>
+        </properties>
+      </component>
+      <component id="d8d0f" class="javax.swing.JButton" binding="JbtnStart">
+        <constraints>
+          <grid row="3" column="3" row-span="2" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Calculate"/>
+          <toolTipText value="starts the calculation "/>
+        </properties>
+      </component>
+      <component id="b3886" class="javax.swing.JButton" binding="JbtnSpeedMBits">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="MBit/s"/>
+          <toolTipText value="Sets speed to Megabit/s"/>
+        </properties>
+      </component>
+      <component id="946c4" class="javax.swing.JButton" binding="JbtnSpeedGBits">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="GBit/s"/>
+          <toolTipText value="Sets speed to Gigabit/s"/>
+        </properties>
+      </component>
+      <component id="195eb" class="javax.swing.JButton" binding="JbtnSpeedMbs">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="MB/s"/>
+          <toolTipText value="Sets speed to Megabyte/s"/>
+        </properties>
+      </component>
+      <component id="31c34" class="javax.swing.JButton" binding="JbtnSpeedKBs">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="KB/s"/>
+          <toolTipText value="Sets speed to Kilobyte/s"/>
+        </properties>
+      </component>
+      <component id="c00ef" class="javax.swing.JButton" binding="JbtnSpeedKBits">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="KBit/s"/>
+          <toolTipText value="Sets speed to Kilobit/s"/>
+        </properties>
+      </component>
+      <component id="fecae" class="javax.swing.JButton" binding="JbtnSpeedGBs">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="GB/s"/>
+          <toolTipText value="Sets speed to Gigabyte/s"/>
+        </properties>
+      </component>
+      <component id="8e1f4" class="javax.swing.JLabel" binding="JlblDownBigTime">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="e814c" class="javax.swing.JLabel" binding="JlblDownloadzeit">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Benötigte Zeit für Download"/>
+        </properties>
+      </component>
+      <component id="c335e" class="javax.swing.JLabel" binding="JlblUploadzeit">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Benötigte Zeit für Upload"/>
+        </properties>
+      </component>
+      <component id="4298b" class="javax.swing.JLabel" binding="JlblUpBigTime">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="1be47" class="javax.swing.JLabel" binding="JlblDataSizeType">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="GB"/>
+        </properties>
+      </component>
+      <component id="b9218" class="javax.swing.JLabel" binding="JlblSpeedType">
+        <constraints>
+          <grid row="1" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="MBit/s"/>
+        </properties>
+      </component>
+      <component id="b941f" class="javax.swing.JLabel" binding="JlblDownSmallTime">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="290b2" class="javax.swing.JLabel" binding="JlblUpSmallTime">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="0"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DownloadRechner:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DownloadRechner_jar</output-path>
+    <root id="archive" name="DownloadRechner.jar">
+      <element id="module-output" name="DownloadRechner" />
+    </root>
+  </artifact>
+</component>
