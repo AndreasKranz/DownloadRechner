@@ -1,0 +1,30 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "Append \"maintainedBy\" tag and its value from the resource group",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/9ea02ca2-71db-412d-8b00-7c7ca9fcd32d",
+  "scope": "/subscriptions/d743f14f-9ac6-4b0f-8e7a-24e17474ab41",
+  "notScopes": [],
+  "parameters": {
+   "tagName": {
+    "value": "maintainedBy"
+   }
+  },
+  "description": "",
+  "metadata": {
+   "assignedBy": "andreas.kranz@fftuasdev.onmicrosoft.com ",
+   "parameterScopes": {},
+   "createdBy": "e2bd82e2-f2ab-4129-a46d-f62d577c7be4",
+   "createdOn": "2021-12-10T14:31:37.5201144Z",
+   "updatedBy": "30c2cc41-c97a-4074-8b27-992b292e2a4f",
+   "updatedOn": "2021-12-16T13:06:16.7072774Z"
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/d743f14f-9ac6-4b0f-8e7a-24e17474ab41/providers/Microsoft.Authorization/policyAssignments/17b307c9ff2b4bfcbe581405",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "17b307c9ff2b4bfcbe581405"
+}
