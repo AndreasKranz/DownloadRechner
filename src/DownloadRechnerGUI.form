@@ -192,7 +192,7 @@
       </component>
       <component id="b941f" class="javax.swing.JLabel" binding="JlblDownSmallTime">
         <constraints>
-          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="0"/>
@@ -200,10 +200,42 @@
       </component>
       <component id="290b2" class="javax.swing.JLabel" binding="JlblUpSmallTime">
         <constraints>
-          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="0"/>
+        </properties>
+      </component>
+      <component id="cc3d6" class="javax.swing.JLabel" binding="JlblDownBigTimeUnit">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="min"/>
+        </properties>
+      </component>
+      <component id="8b0df" class="javax.swing.JLabel" binding="JlblDownSmallTimeUnit">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="s"/>
+        </properties>
+      </component>
+      <component id="10c0f" class="javax.swing.JLabel" binding="JlblUpBigTimeUnit">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="min"/>
+        </properties>
+      </component>
+      <component id="62498" class="javax.swing.JLabel" binding="JlblUpSmallTimeUnit">
+        <constraints>
+          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="s"/>
         </properties>
       </component>
     </children>

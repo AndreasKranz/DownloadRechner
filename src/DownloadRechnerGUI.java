@@ -64,7 +64,7 @@ public class DownloadRechnerGUI {
                     JlblDownBigTime.setText(String.valueOf(myDRGUI.getDLoadTimeHours()));
                     JlblDownBigTimeUnit.setText("h");
                     JlblDownSmallTime.setText(String.valueOf(myDRGUI.getDLoadTimeMin()));
-                    JlblDownSmallTimeUnit.setText("h");
+                    JlblDownSmallTimeUnit.setText("min");
                 }
 
                 if (myDRGUI.getULoadTimeHours() < 1){
